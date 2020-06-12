@@ -1675,78 +1675,6 @@ This DRU are valid for PCBway BASIC PCB Configuration, check the advanced ones i
 <wire x1="44.1" y1="19.7" x2="46.6" y2="19.7" width="0.1524" layer="16"/>
 <wire x1="46.6" y1="19.7" x2="47.3" y2="20.4" width="0.1524" layer="16"/>
 </signal>
-<signal name="N$25">
-<contactref element="U2" pad="77"/>
-</signal>
-<signal name="N$26">
-<contactref element="U2" pad="75"/>
-</signal>
-<signal name="N$27">
-<contactref element="U2" pad="74"/>
-</signal>
-<signal name="N$28">
-<contactref element="U2" pad="73"/>
-</signal>
-<signal name="N$29">
-<contactref element="U2" pad="72"/>
-</signal>
-<signal name="N$30">
-<contactref element="U2" pad="71"/>
-</signal>
-<signal name="N$31">
-<contactref element="U2" pad="70"/>
-</signal>
-<signal name="N$32">
-<contactref element="U2" pad="69"/>
-</signal>
-<signal name="N$33">
-<contactref element="U2" pad="66"/>
-</signal>
-<signal name="N$34">
-<contactref element="U2" pad="65"/>
-</signal>
-<signal name="N$35">
-<contactref element="U2" pad="64"/>
-</signal>
-<signal name="N$36">
-<contactref element="U2" pad="63"/>
-</signal>
-<signal name="N$37">
-<contactref element="U2" pad="62"/>
-</signal>
-<signal name="N$38">
-<contactref element="U2" pad="61"/>
-</signal>
-<signal name="N$39">
-<contactref element="U2" pad="60"/>
-</signal>
-<signal name="N$40">
-<contactref element="U2" pad="59"/>
-</signal>
-<signal name="N$41">
-<contactref element="U2" pad="56"/>
-</signal>
-<signal name="N$42">
-<contactref element="U2" pad="55"/>
-</signal>
-<signal name="N$43">
-<contactref element="U2" pad="54"/>
-</signal>
-<signal name="N$44">
-<contactref element="U2" pad="53"/>
-</signal>
-<signal name="N$45">
-<contactref element="U2" pad="52"/>
-</signal>
-<signal name="N$46">
-<contactref element="U2" pad="51"/>
-</signal>
-<signal name="N$47">
-<contactref element="U2" pad="50"/>
-</signal>
-<signal name="N$48">
-<contactref element="U2" pad="49"/>
-</signal>
 <signal name="E_G3">
 <contactref element="U2" pad="23"/>
 <contactref element="U1" pad="71"/>
@@ -1780,51 +1708,95 @@ This DRU are valid for PCBway BASIC PCB Configuration, check the advanced ones i
 </signal>
 <signal name="O_R7">
 <contactref element="U1" pad="3"/>
+<contactref element="U2" pad="77"/>
+<wire x1="15.2784" y1="31.7318" x2="64.84" y2="21.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_R6">
 <contactref element="U1" pad="4"/>
+<contactref element="U2" pad="75"/>
+<wire x1="17.0056" y1="33.9416" x2="17.0056" y2="35.9056" width="0.1524" layer="1"/>
+<wire x1="17.0056" y1="35.9056" x2="23.9" y2="42.8" width="0.1524" layer="1"/>
+<wire x1="23.9" y1="42.8" x2="65.9" y2="42.8" width="0.1524" layer="1"/>
+<wire x1="65.9" y1="42.8" x2="71.6" y2="37.1" width="0.1524" layer="1"/>
+<wire x1="71.6" y1="37.1" x2="71.6" y2="26.6" width="0.1524" layer="1"/>
+<wire x1="66.95" y1="21.95" x2="64.84" y2="21.95" width="0.1524" layer="1"/>
+<wire x1="71.6" y1="26.6" x2="66.95" y2="21.95" width="0.1524" layer="1"/>
 </signal>
 <signal name="O_R5">
 <contactref element="U1" pad="5"/>
+<contactref element="U2" pad="74"/>
+<wire x1="17.4882" y1="33.9416" x2="64.84" y2="22.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_R4">
 <contactref element="U1" pad="6"/>
+<contactref element="U2" pad="73"/>
+<wire x1="17.9962" y1="33.9416" x2="64.84" y2="22.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_R3">
 <contactref element="U1" pad="7"/>
+<contactref element="U2" pad="72"/>
+<wire x1="18.5042" y1="33.9416" x2="64.84" y2="23.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_R2">
 <contactref element="U1" pad="8"/>
+<contactref element="U2" pad="71"/>
+<wire x1="19.0122" y1="33.9416" x2="64.84" y2="23.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_R1">
 <contactref element="U1" pad="9"/>
+<contactref element="U2" pad="70"/>
+<wire x1="19.4948" y1="33.9416" x2="64.84" y2="24.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_R0">
 <contactref element="U1" pad="10"/>
+<contactref element="U2" pad="69"/>
+<wire x1="20.0028" y1="33.9416" x2="20.0028" y2="36.1028" width="0.1524" layer="1"/>
+<wire x1="69.8" y1="36.5" x2="69.8" y2="27.9" width="0.1524" layer="1"/>
+<wire x1="69.8" y1="27.9" x2="66.85" y2="24.95" width="0.1524" layer="1"/>
+<wire x1="66.85" y1="24.95" x2="64.84" y2="24.95" width="0.1524" layer="1"/>
+<wire x1="20.0028" y1="36.1028" x2="24.6" y2="40.7" width="0.1524" layer="1"/>
+<wire x1="24.6" y1="40.7" x2="65.6" y2="40.7" width="0.1524" layer="1"/>
+<wire x1="65.6" y1="40.7" x2="69.8" y2="36.5" width="0.1524" layer="1"/>
 </signal>
 <signal name="O_G7">
 <contactref element="U1" pad="93"/>
+<contactref element="U2" pad="66"/>
+<wire x1="21.5014" y1="33.9416" x2="59.66" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_G6">
 <contactref element="U1" pad="94"/>
+<contactref element="U2" pad="65"/>
+<wire x1="22.0094" y1="33.9416" x2="60.16" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_G5">
 <contactref element="U1" pad="95"/>
+<contactref element="U2" pad="64"/>
+<wire x1="22.492" y1="33.9416" x2="60.66" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_G4">
 <contactref element="U1" pad="96"/>
+<contactref element="U2" pad="63"/>
+<wire x1="23" y1="33.9416" x2="61.16" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_G3">
 <contactref element="U1" pad="99"/>
+<contactref element="U2" pad="62"/>
+<wire x1="23.508" y1="33.9416" x2="62.66" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_G2">
 <contactref element="U1" pad="100"/>
+<contactref element="U2" pad="61"/>
+<wire x1="23.9906" y1="33.9416" x2="63.16" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_G1">
 <contactref element="U1" pad="1"/>
+<contactref element="U2" pad="60"/>
+<wire x1="24.4986" y1="33.9416" x2="64.84" y2="20.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_G0">
 <contactref element="U1" pad="2"/>
+<contactref element="U2" pad="59"/>
+<wire x1="25.0066" y1="33.9416" x2="64.84" y2="20.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$57">
 <contactref element="U1" pad="55"/>
@@ -1846,27 +1818,47 @@ This DRU are valid for PCBway BASIC PCB Configuration, check the advanced ones i
 </signal>
 <signal name="O_B7">
 <contactref element="U1" pad="85"/>
+<contactref element="U2" pad="56"/>
+<wire x1="26.5052" y1="33.9416" x2="55.66" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_B6">
 <contactref element="U1" pad="86"/>
+<contactref element="U2" pad="55"/>
+<wire x1="26.9878" y1="33.9416" x2="56.16" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_B5">
 <contactref element="U1" pad="87"/>
+<contactref element="U2" pad="54"/>
+<wire x1="27.4958" y1="33.9416" x2="56.66" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_B4">
 <contactref element="U1" pad="88"/>
+<contactref element="U2" pad="53"/>
+<wire x1="28.0038" y1="33.9416" x2="57.16" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_B3">
 <contactref element="U1" pad="89"/>
+<contactref element="U2" pad="52"/>
+<wire x1="28.5118" y1="33.9416" x2="57.66" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_B2">
 <contactref element="U1" pad="90"/>
+<contactref element="U2" pad="51"/>
+<wire x1="50.5086" y1="32.6641875" x2="50.5086" y2="30.6914" width="0.1524" layer="1"/>
+<wire x1="28.9944" y1="33.9416" x2="49.2311875" y2="33.9416" width="0.1524" layer="1"/>
+<wire x1="49.2311875" y1="33.9416" x2="50.5086" y2="32.6641875" width="0.1524" layer="1"/>
+<wire x1="58.16" y1="23.04" x2="58.16" y2="18.77" width="0.1524" layer="1"/>
+<wire x1="50.5086" y1="30.6914" x2="58.16" y2="23.04" width="0.1524" layer="1"/>
 </signal>
 <signal name="O_B1">
 <contactref element="U1" pad="91"/>
+<contactref element="U2" pad="50"/>
+<wire x1="30.7216" y1="32.2144" x2="58.66" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="O_B0">
 <contactref element="U1" pad="92"/>
+<contactref element="U2" pad="49"/>
+<wire x1="30.7216" y1="31.7318" x2="59.16" y2="18.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <via x="39.2" y="19.9" extent="1-16" drill="0.3"/>
